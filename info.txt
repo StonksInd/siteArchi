@@ -1,0 +1,22 @@
+- Page présentation avec blabla
+    - Page rénovation immeuble
+        -9 place St cecile albi
+        - BIJ montauban
+    - Page maison individuelle
+        -Benac
+        -Gineste
+        -Fau
+    - Page bâtiment industriel et commerce
+        -Garage olivier
+        -L’ours Blanc
+        -Contoirde la bio 
+        -Domotec
+    - Page résidences
+        -Marcel gueret
+        -Rue Perbosc
+        -Caussade 
+- Page contact avec mail, numéro, adresse 
+
+
+
+Année de construction/ le cout/ photo/ descriptifs
