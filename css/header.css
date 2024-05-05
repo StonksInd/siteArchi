@@ -1,16 +1,44 @@
-
-body{
-    margin:0px;
-    }
-
-#navBar{
-        display: flex; 
-        align-items: center; 
-        justify-content: space-between;
-        border: 2px solid #000; 
-        padding: 10px; 
-    
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
 }
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid #000;
+}
+
+.button {
+    text-decoration: none;
+    color: #000;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+    border: 1px solid transparent; /* Add border to maintain layout consistency */
+}
+
+.button:hover {
+    background-color: #e8e8e8;
+    color: #333;
+    border-color: #ddd;
+}
+
+
+#image_logo_Bruno_Bertrand img {
+    transition: transform 0.3s ease-in-out;
+}
+
+#image_logo_Bruno_Bertrand img:hover {
+    transform: scale(1.1);
+}
+
 #information_De_Bruno_bertrand{
 
     display: grid; 
@@ -27,11 +55,13 @@ p{
     margin: 0;
     text-align: center;
     font-size: x-large;
+    font-weight: bold;
 }
 
 #image_logo_Bruno_Bertrand {
     display: flex;
-    align-items: center; /* Centre les éléments verticalement */
+    align-items: center;
+    font-size: x-large;
 }
 
 #image_logo_Bruno_Bertrand .button {
@@ -42,14 +72,7 @@ p{
     margin-right: 0; /* Supprime l'espace à droite du dernier élément Button */
 }
 
-.button{
 
-    color:#000;
-    text-decoration: none;
-    border: 1px solid;
-    padding: 3px;
-
-}
 
 
 
